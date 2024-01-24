@@ -1,0 +1,43 @@
+.search {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+}
+.list {
+  margin: 0;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+  width: 90px;
+  font-size: 16px;
+}
+
+.buttons button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.item {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+  opacity: 0.8;
+  color: rgb(249, 219, 175);
+}
